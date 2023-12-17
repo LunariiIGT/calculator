@@ -1,0 +1,138 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+    user-select: none;
+}
+
+body {
+    height: 47rem;
+    
+    background-color: #109DFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 62px;
+    height: 60px;
+    font-size: 32px;
+
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+    margin: 0px 20px 16px 0px;
+    transition: all 200ms
+}
+    button:hover {
+        scale: 1.10;
+        cursor: pointer;
+    }
+
+        #num0, #butDot, #opEqual {
+            margin-bottom: 0px;
+        }
+
+        #opDiv, #opMul, #opMin, #opSum, #opEqual {
+            margin-right: 0px;
+        }
+
+        #butAC, #num0 {
+            width: 144px;
+        }
+
+        #opDiv {
+            font-size: 24px;
+        }
+
+            .numButton, .decButton {
+                color: #29A8FF;
+                background-color: #303136;
+            }
+                .numButton:hover, .decButton:hover {
+                    background-color: #404147;
+                }
+
+            .opButton {
+                color: #339DFF;
+                background-color: #005DB2;
+            }
+                .opButton:hover {
+                    background-color: #026dd1;
+                }
+
+            .delButton {
+                color: #A5A5A5;
+                background-color: #616161;
+            }
+                .delButton:hover {
+                    background-color: #757575;
+                }
+
+            .eqButton {
+                color: #B2DAFF;
+                background-color: #1991FF;
+            }
+                .eqButton:hover {
+                    background-color: #369eff;
+                }
+
+
+
+.mainNum {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 308px;
+    height: 364px;
+    margin-top: 0px;
+}
+
+.mainDisplay {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+    justify-content: center;
+
+    text-align: right;
+
+    width: 308px;
+    height: 161px;
+    margin-bottom: 50px;
+}
+
+    .disResult {
+        font-size: 48px;
+        color: #fff;
+        margin-top: 0px;
+        margin-bottom: 26px;
+    }
+
+    .disOperations {
+        font-size: 24px;
+        color: #818181;
+        font-weight: 400;
+        margin-bottom: 6px;
+    }
+
+.main {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    width: 376px;
+    height: 730px;
+    border-radius: 35px;
+
+    background-color: #17181A;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+}
+
+
